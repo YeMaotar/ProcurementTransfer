@@ -1,6 +1,6 @@
 #swagger3地址
-http://localhost:8060/swagger-ui/index.html
+http://localhost6080/swagger-ui/index.html
 #druid地址
-http://localhost:8060/druid
+http://localhost6080/druid
 username:admin
 password:admin
