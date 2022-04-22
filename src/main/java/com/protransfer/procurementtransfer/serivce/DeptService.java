@@ -10,4 +10,5 @@ import com.protransfer.procurementtransfer.entity.basicdata.DeptEntity;
  * 部门Service
  */
 public interface DeptService extends IService<DeptEntity> {
+    
 }
