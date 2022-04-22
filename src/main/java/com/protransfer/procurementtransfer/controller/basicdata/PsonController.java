@@ -27,7 +27,7 @@ public class PsonController {
     @Resource
     private PsonService service;
 
-    @Operation(summary = "物料新增")
+    @Operation(summary = "人员新增")
     @PostMapping("add")
     public boolean addPson(@ApiParam(value = "人员对象", required = true)@RequestBody List<PsonEntity> pson){
         return service.saveBatch(pson);
