@@ -1,4 +1,4 @@
-package com.protransfer.procurementtransfer.entity;
+package com.protransfer.procurementtransfer.entity.basicdata;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
@@ -8,23 +8,21 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @title: ObjectEntity
+ * @title: SupplierEntity
  * @Author ZhangZw
- * @Date: 2022/4/21 19:10
+ * @Date: 2022/4/21 19:12
  * @Version 1.0
  */
 @Data
-@ApiModel("工号模型")
-@TableName(value = "bd_object")
-public class ObjectEntity implements Serializable {
-    @ApiModelProperty("工号主键")
+@ApiModel("供应商模型")
+@TableName(value = "bd_supplier")
+public class SupplierEntity implements Serializable {
+    @ApiModelProperty("供应商主键")
     private String pk;
-    @ApiModelProperty("工号编码")
+    @ApiModelProperty("供应商编码")
     private String code;
-    @ApiModelProperty("工号名称")
+    @ApiModelProperty("供应商名称")
     private String name;
-    @ApiModelProperty("所属组织")
-    private String org;
     @ApiModelProperty("启用状态")
     private String enablestate;
     @ApiModelProperty("时间戳")

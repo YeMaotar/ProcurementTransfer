@@ -1,4 +1,4 @@
-package com.protransfer.procurementtransfer.entity;
+package com.protransfer.procurementtransfer.entity.basicdata;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
@@ -8,23 +8,23 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @title: OrgEntity
+ * @title: StordocEntity
  * @Author ZhangZw
- * @Date: 2022/4/21 19:04
+ * @Date: 2022/4/21 19:08
  * @Version 1.0
  */
 @Data
-@ApiModel("业务单元模型")
-@TableName(value = "bd_org")
-public class OrgEntity implements Serializable {
-    @ApiModelProperty("组织主键")
+@ApiModel("仓库模型")
+@TableName(value = "bd_stordoc")
+public class StordocEntity implements Serializable {
+    @ApiModelProperty("仓库主键")
     private String pk;
-    @ApiModelProperty("组织编码")
+    @ApiModelProperty("仓库编码")
     private String code;
-    @ApiModelProperty("组织名称")
+    @ApiModelProperty("仓库名称")
     private String name;
-    @ApiModelProperty("组织分类")
-    private String classcode;
+    @ApiModelProperty("所属组织")
+    private String org;
     @ApiModelProperty("启用状态")
     private String enablestate;
     @ApiModelProperty("时间戳")

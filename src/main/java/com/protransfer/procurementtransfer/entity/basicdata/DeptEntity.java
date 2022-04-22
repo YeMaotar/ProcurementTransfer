@@ -1,4 +1,4 @@
-package com.protransfer.procurementtransfer.entity;
+package com.protransfer.procurementtransfer.entity.basicdata;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;

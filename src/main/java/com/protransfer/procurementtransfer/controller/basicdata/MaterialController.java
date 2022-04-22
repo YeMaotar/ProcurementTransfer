@@ -1,6 +1,6 @@
-package com.protransfer.procurementtransfer.controller;
+package com.protransfer.procurementtransfer.controller.basicdata;
 
-import com.protransfer.procurementtransfer.entity.MaterialEntity;
+import com.protransfer.procurementtransfer.entity.basicdata.MaterialEntity;
 import com.protransfer.procurementtransfer.serivce.MaterialService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiParam;
