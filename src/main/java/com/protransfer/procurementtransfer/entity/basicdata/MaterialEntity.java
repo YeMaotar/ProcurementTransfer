@@ -32,6 +32,4 @@ public class MaterialEntity implements Serializable {
     private String type;
     @ApiModelProperty("启用状态")
     private String enablestate;
-    @ApiModelProperty("时间戳")
-    private String ts;
 }

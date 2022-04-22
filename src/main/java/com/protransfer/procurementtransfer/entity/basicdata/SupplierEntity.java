@@ -25,6 +25,4 @@ public class SupplierEntity implements Serializable {
     private String name;
     @ApiModelProperty("启用状态")
     private String enablestate;
-    @ApiModelProperty("时间戳")
-    private String ts;
 }

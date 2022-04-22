@@ -27,6 +27,4 @@ public class OrgEntity implements Serializable {
     private String classcode;
     @ApiModelProperty("启用状态")
     private String enablestate;
-    @ApiModelProperty("时间戳")
-    private String ts;
 }

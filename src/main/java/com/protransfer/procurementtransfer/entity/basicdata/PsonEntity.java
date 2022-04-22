@@ -33,6 +33,4 @@ public class PsonEntity implements Serializable {
     private String phone;
     @ApiModelProperty("启用状态")
     private String enablestate;
-    @ApiModelProperty("时间戳")
-    private String ts;
 }

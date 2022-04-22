@@ -27,6 +27,4 @@ public class StordocEntity implements Serializable {
     private String org;
     @ApiModelProperty("启用状态")
     private String enablestate;
-    @ApiModelProperty("时间戳")
-    private String ts;
 }
