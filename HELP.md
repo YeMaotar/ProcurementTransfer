@@ -8,3 +8,8 @@ password:admin
 url:192.168.101.12
 username:test
 password:admin123456
+
+#上传接口地址
+http://localhost:6080/file/upload
+#数据下载接口地址
+http://localhost:6080/file/download?id=8
